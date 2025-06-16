@@ -59,10 +59,22 @@
     .services ul {
       padding-left: 20px;
     }
-    .money-img {
+    .money-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
       margin: 20px 0;
-      max-width: 100%;
-      width: 200px;
+      flex-wrap: wrap;
+    }
+    .money-img {
+      max-width: 200px;
+      border-radius: 8px;
+    }
+    .money-caption {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #007BFF;
     }
     .contact {
       margin-top: 20px;
@@ -82,15 +94,16 @@
   <div class="overlay">
     <div class="container">
       <div class="lang-button">
-        <a href="index.html">🌐 ¿Hablas inglés? Haz clic aquí</a>
+        <a href="index.html">🌐 Speak English? Click Here</a>
       </div>
 
       <h1>DLR Multiservice</h1>
       <h2>Sirviendo a nuestra comunidad con dedicación</h2>
 
-      <img class="money-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/US_%24100_Series_2009_Obverse.jpg/640px-US_%24100_Series_2009_Obverse.jpg" alt="Billete de $100">
-
-      <p><strong>Nuestra Misión:</strong> ¡Más dinero en tu bolsillo!</p>
+      <div class="money-section">
+        <img class="money-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/US_%24100_Series_2009_Obverse.jpg/640px-US_%24100_Series_2009_Obverse.jpg" alt="Billete de $100">
+        <div class="money-caption">¡Más dinero en tu bolsillo!</div>
+      </div>
 
       <div class="services">
         <h3>Servicios Ofrecidos:</h3>
@@ -98,16 +111,16 @@
           <li>Declaraciones de impuestos sobre ventas</li>
           <li>Preparación de impuestos federales y estatales</li>
           <li>Solicitud de prórrogas</li>
-          <li>Aplicaciones para ITIN</li>
+          <li>ITIM</li>
           <li>Preparación de declaraciones de impuestos individuales y de negocios</li>
         </ul>
       </div>
 
       <div class="contact">
         <h3>Información de Contacto</h3>
-        <p><strong>Nombre:</strong> Nelly De La Rosa</p>
+        <p><strong>Nombre:</strong> Cristian Delly</p>
         <p><strong>Teléfono:</strong> <a href="tel:6099237763">(609) 923-7763</a></p>
-        <p><strong>Email:</strong> <a href="mailto:dlrmultiservice@example.com">dlrmultiservice@example.com</a></p>
+        <p><strong>Email:</strong> <a href="mailto:delarosamultiservice@comcast.net">delarosamultiservice@comcast.net</a></p>
       </div>
 
       <a class="btn" href="tel:6099237763">📞 Llamar Ahora</a>
