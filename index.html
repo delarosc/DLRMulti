@@ -59,10 +59,22 @@
     .services ul {
       padding-left: 20px;
     }
-    .money-img {
+    .money-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
       margin: 20px 0;
-      max-width: 100%;
-      width: 200px;
+      flex-wrap: wrap;
+    }
+    .money-img {
+      max-width: 200px;
+      border-radius: 8px;
+    }
+    .money-caption {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #007BFF;
     }
     .contact {
       margin-top: 20px;
@@ -88,17 +100,18 @@
       <h1>DLR Multiservice</h1>
       <h2>Serving Our Community with Care</h2>
       
-      <img class="money-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/US_%24100_Series_2009_Obverse.jpg/640px-US_%24100_Series_2009_Obverse.jpg" alt="$100 bill">
-      
-      <p><strong>Our Mission:</strong> More money in your pocket!</p>
-      
+      <div class="money-section">
+        <img class="money-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/US_%24100_Series_2009_Obverse.jpg/640px-US_%24100_Series_2009_Obverse.jpg" alt="$100 bill">
+        <div class="money-caption">More money in your pocket!</div>
+      </div>
+
       <div class="services">
         <h3>Services Provided:</h3>
         <ul>
           <li>Sales Tax Returns</li>
           <li>Federal and State Tax Preparation</li>
           <li>Extensions Filed</li>
-          <li>ITIN Applications</li>
+          <li>ITIM</li>
           <li>Business and Individual Returns Prepared</li>
         </ul>
       </div>
@@ -107,7 +120,7 @@
         <h3>Contact Information</h3>
         <p><strong>Name:</strong> Nelly De La Rosa</p>
         <p><strong>Phone:</strong> <a href="tel:6099237763">(609) 923-7763</a></p>
-        <p><strong>Email:</strong> <a href="mailto:dlrmultiservice@example.com">dlrmultiservice@example.com</a></p>
+        <p><strong>Email:</strong> <a href="mailto:delarosamultiservice@comcast.net">delarosamultiservice@comcast.net</a></p>
       </div>
 
       <a class="btn" href="tel:6099237763">📞 Call Now</a>
@@ -115,3 +128,4 @@
   </div>
 </body>
 </html>
+
